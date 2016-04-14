@@ -1,7 +1,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
+<!--[if gt IE 8]><!-->
 
 <html class="no-js"> <!--<![endif]-->
     <head>
@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        
+
         <!-- stylesheets -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -29,23 +29,75 @@
     </head>
 
     <body>
-<?php
+      <!-- site-navigation start -->
+      <nav id="mainNavigation" class="navbar navbar-dafault main-navigation" role="navigation">
+          <div class="container">
 
-	include'header.php';
-?>
+              <div class="navbar-header">
 
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+
+                  <!-- navbar logo -->
+
+
+                      <a href="index.html">
+                       <img src="assets/img/logo.png" class="img-responsive center-block" alt="logo">
+                       <!--<h4>ULTIMATE SURVIVAL CAMPSITE</h4>-->
+                       <span class="glyphicons glyphicons-person-running"></span>
+                      </a>
+
+                  <!-- navbar logo -->
+
+              </div><!-- /.navbar-header -->
+
+              <!-- nav links -->
+              <div class="collapse navbar-collapse" id="main-nav-collapse">
+                  <ul class="nav navbar-nav navbar-right text-uppercase">
+                      <li>
+                          <a href="index.html"><span>home</span></a>
+                      </li>
+                       <li>
+                          <a href="aboutus.html"><span>Our Story</span></a>
+                      </li>
+                       <li>
+                          <a href="portfolio.html"><span>Gallery</span></a>
+                      </li>
+                       <li>
+                          <a href="contents.html"><span>Get Prepared</span></a>
+                      </li>
+
+
+
+
+
+                       <li>
+                          <a href="ourteam.html"><span>Our Team</span></a>
+                      </li>
+                      <li>
+                          <a href="contacts.html"><span>contact</span></a>
+                      </li>
+                  </ul>
+              </div><!-- nav links -->
+
+          </div><!-- /.container -->
+      </nav>
 <center>
 	<br><br>
-	
-     
+
+
    <div class="container">
    <div class="row">
                             <div class="col-md-8">
-                                
-               <h3>LOCATION</h3>  <hr width="30%">               
+
+               <h3>LOCATION</h3>  <hr width="30%">
      <p>Located in Himachal Pradesh, A mountain state. It is one of the loveliest states in India with charming lakes,
-      pretty flowers, ancient shrines, and beautiful people. Located in the transition zone from the Plains to the high 
-      himalayas, the Kangra Valley rivels all the natural beauty the vale of Kashmir can offer. Valleys and streams, 
+      pretty flowers, ancient shrines, and beautiful people. Located in the transition zone from the Plains to the high
+      himalayas, the Kangra Valley rivels all the natural beauty the vale of Kashmir can offer. Valleys and streams,
       snow clad mountains and temperate forests offer the adventure. Dhualadhar Peaks in the Himalayas are the most enchanting.<br>
 45 kilometers from Dharamshala<br>
 Time 1.5 hours from Dharamshala<br>
@@ -55,7 +107,7 @@ Time 1.5 hours from Dharamshala<br>
 8 hours from Delhi<br>
 
     </p>
-       
+
         <h3>facts</h3>  <hr width="30%">
         <p><br>Area - 55673 SQ Km
             <br> Population - 6,077,248
@@ -63,7 +115,7 @@ Time 1.5 hours from Dharamshala<br>
             <br> Languages - Pahadi, Hindi
             <br>Literacy - 85%
             <br>Roads - Surfaced - 14,500Kms
-            <br>Railway- Broad Gauge - New Delhi -Pathankot 
+            <br>Railway- Broad Gauge - New Delhi -Pathankot
             Narrow Gauge - Pathankhot - JwalaMukhi Road
             <br> Airport - Kangra Airport
             <br>Winter - December to Februrary
@@ -71,10 +123,10 @@ Time 1.5 hours from Dharamshala<br>
          <br>   Winter 15 Degree Celsius to 0 Degree Celsius<br>Monsoon - July to September</p>
 
 
-    <h3>WARNING</h3><hr width="30%">  
-   <p>  The survival techniques describes in this website are for use in 
-    dire circumstances where the safety of the individuals is at risk. 
-    Accordingly the website cannot accept any responsibility for any porsecutions 
+    <h3>WARNING</h3><hr width="30%">
+   <p>  The survival techniques describes in this website are for use in
+    dire circumstances where the safety of the individuals is at risk.
+    Accordingly the website cannot accept any responsibility for any porsecutions
     or proceedings brought or instituted against any person or body as a result of the use or misuse of any techniques.
 
  </p>
@@ -134,9 +186,9 @@ http://i567.photobucket.com/albums/ss116/hemangsk/Ult%20Survival%20Camp%20PICs%2
         <!-- script for twitter-feed using owl carousel-->
         <script type="text/javascript">
             $(document).ready(function() {
- 
+
                 $("#twit").owlCarousel({
-                 
+
                     navigation : true, // Show next and prev buttons
                     slideSpeed : 100,
                     paginationSpeed : 400,
@@ -145,7 +197,7 @@ http://i567.photobucket.com/albums/ss116/hemangsk/Ult%20Survival%20Camp%20PICs%2
                     autoPlay: true,
                     pagination: false
                 });
- 
+
             });
         </script>
 
@@ -153,14 +205,14 @@ http://i567.photobucket.com/albums/ss116/hemangsk/Ult%20Survival%20Camp%20PICs%2
         <!-- script for testimonial section using owl carousel -->
         <script type="text/javascript">
             $(document).ready(function() {
- 
+
                 $("#client-speech").owlCarousel({
-                 
+
                     autoPlay: 5000, //Set AutoPlay to 3 seconds
                     stopOnHover: true,
                     singleItem:true
                 });
- 
+
             });
         </script>
 
