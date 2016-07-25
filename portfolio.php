@@ -459,6 +459,32 @@
                                     </div> <!-- end of /. -->
                                 </div>
 
+				<div class="col-md-6 col-sm-6">
+                                    <div class="">
+                                        <div class="item-image">
+                                            <a href="#">
+                                                <img src=“../assets/img/10.jpg”>
+                                                
+                                            </a>
+                                        </div>
+
+                                       
+                                    </div> <!-- end of /. -->
+                                </div>
+<div class="col-md-6 col-sm-6">
+                                    <div class="">
+                                        <div class="item-image">
+                                            <a href="#">
+                                                <img src="http://i567.photobucket.com/albums/ss116/hemangsk/Ult%20Survival%20Camp%20PICs%20Copyright%20MAJOR%20RC%20SHARMA/Capture14-min_zps9uzl1qmh.jpg" class="img-responsive center-block" alt="portfolio 2">
+                                                
+                                            </a>
+                                        </div>
+
+                                       
+                                    </div> <!-- end of /. -->
+                                </div>
+
+
 
                              
 
